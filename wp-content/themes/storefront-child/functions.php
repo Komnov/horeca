@@ -16,5 +16,32 @@ add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
 
 // END ENQUEUE PARENT ACTION
 
-remove_action('storefront_header', 'storefront_header_cart', 60);
-remove_action('storefront_header', 'storefront_product_search', 40);
+
+
+add_action('after_setup_theme', 'remove_adctions'); //удаляем хуки
+function remove_adctions() {
+    remove_action('storefront_header', 'storefront_header_cart', 60);
+    remove_action('storefront_header', 'storefront_primary_navigation', 50);
+}
+add_action('after_setup_theme', 'add_adctions'); //добавляем хуки
+function add_adctions() {
+    add_action('storefront_header', 'storefront_primary_navigation', 30);
+}
+
+// создаем области меню
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'main_menu'  => __( 'Main Menu', 'onepress' ),
+            'footer_menu'  => __( 'Footer Menu', 'onepress' )
+        )   
+    );
+}
+add_action( 'init', 'register_my_menus' );
+
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' ); //добавляем стили и скрипты
+// function theme_name_scripts() {
+     wp_enqueue_style( 'animate.css', '/wp-content/themes/storefront-child/assets/css/animate.css' );
+    wp_enqueue_script( 'main.js', '/wp-content/themes/storefront-child/assets/js/main.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'wow.min.js', '/wp-content/themes/storefront-child/assets/js/wow.min.js', array(), '1.0.0', true );
+// }

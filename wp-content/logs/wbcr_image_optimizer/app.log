@@ -370,3 +370,45 @@
 02-08-2022 12:15:21 [horeca.komnovalx.beget.tech][debug] New queue created #31, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:7,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:2756,&quot;final_size&quot;:2064,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:1,\&quot;original_main_size\&quot;:1736,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1659431721}
 02-08-2022 12:15:21 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 7
 -------------------------------
+02-08-2022 15:00:51 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 24
+02-08-2022 15:00:51 [horeca.komnovalx.beget.tech][info] Restored file: /home/k/komnovalx/horeca.komnovalx.beget.tech/public_html/wp-content/uploads/wio_backup/2022/08/CAPTAIN-NEMO-HoReCa_pages-to-jpg-0001.jpg.
+02-08-2022 15:00:51 [horeca.komnovalx.beget.tech][info] Restored file: /home/k/komnovalx/horeca.komnovalx.beget.tech/public_html/wp-content/uploads/wio_backup/2022/08/CAPTAIN-NEMO-HoReCa_pages-to-jpg-0001-150x150.jpg.
+02-08-2022 15:00:51 [horeca.komnovalx.beget.tech][info] Restored file: /home/k/komnovalx/horeca.komnovalx.beget.tech/public_html/wp-content/uploads/wio_backup/2022/08/CAPTAIN-NEMO-HoReCa_pages-to-jpg-0001-300x169.jpg.
+02-08-2022 15:00:51 [horeca.komnovalx.beget.tech][debug] Deleted queue item #29
+02-08-2022 15:00:51 [horeca.komnovalx.beget.tech][info] Preparing to upload a file (/home/k/komnovalx/horeca.komnovalx.beget.tech/public_html/wp-content/uploads/2022/08/CAPTAIN-NEMO-HoReCa_pages-to-jpg-0001.jpg) to a remote server (server_1).
+02-08-2022 15:01:00 [horeca.komnovalx.beget.tech][info] File successfully uploaded to remote server (server_1).
+02-08-2022 15:01:04 [horeca.komnovalx.beget.tech][info] Preparing to upload a file (/home/k/komnovalx/horeca.komnovalx.beget.tech/public_html/wp-content/uploads/2022/08/CAPTAIN-NEMO-HoReCa_pages-to-jpg-0001-150x150.jpg) to a remote server (server_1).
+02-08-2022 15:01:04 [horeca.komnovalx.beget.tech][info] File successfully uploaded to remote server (server_1).
+02-08-2022 15:01:04 [horeca.komnovalx.beget.tech][info] Preparing to upload a file (/home/k/komnovalx/horeca.komnovalx.beget.tech/public_html/wp-content/uploads/2022/08/CAPTAIN-NEMO-HoReCa_pages-to-jpg-0001-300x169.jpg) to a remote server (server_1).
+02-08-2022 15:01:07 [horeca.komnovalx.beget.tech][info] File successfully uploaded to remote server (server_1).
+02-08-2022 15:01:09 [horeca.komnovalx.beget.tech][debug] New queue created #32, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;24&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:455613,&quot;final_size&quot;:455545,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:438558,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1659441669}
+02-08-2022 15:01:09 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 24
+-------------------------------
+03-08-2022 13:16:57 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 83
+03-08-2022 13:16:57 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:16:57 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 83
+-------------------------------
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 84
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 84
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 85
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 85
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 86
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 86
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 87
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:19:57 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 87
+-------------------------------
+03-08-2022 13:19:59 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 88
+03-08-2022 13:19:59 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:19:59 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 88
+03-08-2022 13:19:59 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 89
+03-08-2022 13:19:59 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:19:59 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 89
+-------------------------------
+03-08-2022 13:20:40 [horeca.komnovalx.beget.tech][info] START auto optimize cron job. Attachment: 90
+03-08-2022 13:20:40 [horeca.komnovalx.beget.tech][warning] This format is disabled in the plugin settings: image/webp
+03-08-2022 13:20:40 [horeca.komnovalx.beget.tech][info] END auto optimize cron job. Attachment: 90
+-------------------------------
