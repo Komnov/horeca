@@ -19,10 +19,11 @@
 			<div class="footer__logo">
 				<div class="logo">
 				<a href="/">
-					<img src="/wp-content/themes/storefront-child/assets/img/logo.svg" alt="">
+					<img class="pc-hide" src="/wp-content/themes/storefront-child/assets/img/logo.svg" alt="">
+					<img class="mob-hide" src="/wp-content/themes/storefront-child/assets/img/logo-pc.svg" alt="">
 				</a>
 				<div class="footer_desc">
-					Сохраняем и доставляем вкус моря <br>в его первозданном виде
+					Сохраняем и доставляем <br> вкус моря в его <br>первозданном виде
 				</div>
 				</div>
 			</div>

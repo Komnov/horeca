@@ -19,15 +19,15 @@ get_header(); ?>
 		<section class="index__top">
 		<div class="index__top-overlay">
 		<div class="overlay__video"></div>
-		<video class="index__video" src="/wp-content/themes/storefront-child/assets/img/other/bg-1080.webm" autoplay loop muted ></video>
+		<video class="index__video" src="/wp-content/themes/storefront-child/assets/img/other/bg-1080.webm" autoplay loop muted controls poster="/wp-content/themes/storefront-child/assets/img/other/bg-1080.jpg"></video>
 		</div>
 
 		<div class="container index__top_container">
 			<div class="m-title flipInX wow"  data-wow-delay="0.3s">Капитан НЕМО <b>HORECA</b></div>
-			<div class="index__top_title flipInX wow"  data-wow-delay="0.4s" >
-				<h1>Сохраняем и доставляем вкус моря в его первозданном виде</h1>
+			<div class="index__top_title wow"  data-wow-delay="0.4s" >
+				<h1>Сохраняем и доставляем вкус моря <br>в его первозданном виде</h1>
 			</div>
-			<div class="index__top_subtitle flipInX wow" data-wow-delay="0.5s">
+			<div class="index__top_subtitle wow" data-wow-delay="0.5s">
 				<p>Наша главная задача - Ваши довольные Клиенты, которые возвращаются к Вам вновь и вновь за свежими и вкусными морепродуктами</p>
 			</div>
 			<div class="index__top_next">
@@ -42,7 +42,7 @@ get_header(); ?>
 		</section>
 
 		<section class="index__year" id="2">
-			<div class="container container__year flipInX wow" data-wow-delay="0.3s">
+			<div class="container container__year wow" data-wow-delay="0.3s">
 			<div class="m-title">Большой опыт</div>
 				<div class="year ">
 					<div class="sub_title">
@@ -66,7 +66,7 @@ get_header(); ?>
 					echo do_shortcode('[smartslider3 slider="2"]');
 					?>
 				</div>
-				<div class="production__index_about flipInX wow" data-wow-delay="0.3s">
+				<div class="production__index_about wow" data-wow-delay="0.3s">
 					<div class="m-title">Продукция</div>
 					<div class="title">
 						Мы добываем рыбу в Баренцовом море. <br>Производство находится в мурманске
@@ -82,7 +82,7 @@ get_header(); ?>
 		</section>
 
 		<section class="experts__index">
-			<div class="container experts__index_container flipInX wow" data-wow-delay="0.3s">
+			<div class="container experts__index_container wow" data-wow-delay="0.3s">
 			<div class="experts__about">
 			<div class="m-title">Ключевые компетенции</div>
 				<div class="title">
@@ -115,7 +115,7 @@ get_header(); ?>
 		</section>
 
 		<section class="index__delivery">
-			<div class="container index__delivery_container flipInX wow" data-wow-delay="0.3s">
+			<div class="container index__delivery_container wow" data-wow-delay="0.3s">
 			<div class="m-title">Храние и перевозка</div>
 			<div class="about">
 				<div class="title">

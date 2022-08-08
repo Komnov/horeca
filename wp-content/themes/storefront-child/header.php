@@ -52,7 +52,8 @@
 		<div class="container header__container">
 			<div class="header__logo">
 				<a href="/">
-					<img src="/wp-content/themes/storefront-child/assets/img/logo.svg" alt="">
+					<img class="pc-hide" src="/wp-content/themes/storefront-child/assets/img/logo.svg" alt="">
+					<img class="mob-hide" src="/wp-content/themes/storefront-child/assets/img/logo-pc.svg" alt="">
 				</a>
 			</div>
 			<div class="header__nav">
